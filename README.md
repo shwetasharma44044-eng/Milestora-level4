@@ -17,6 +17,8 @@ Designed for freelancers, independent contractors, small agencies, and clients, 
 
 *   **Live Web Application**: [stellar-escrowlevel4.vercel.app](https://stellar-escrowlevel4.vercel.app/)
 *   **Video Demonstration**: [Watch Live Demo](https://photos.app.goo.gl/MueLR7CbmcvuxBYw9) *(Walkthrough of key user flows)*
+*   **Feedback Form**: [Google Form](https://docs.google.com/forms/d/1xb0aJr41nswQKE2uGVBkFKH-Kk-LDmxpWu7fJFKcPsk/edit)
+*   **Feedback Responses**: [Google Sheet](https://docs.google.com/spreadsheets/d/1a1hteCruPwECHnf65SVssua9sjn3yVcZJF29mvdL3Uo/edit?usp=sharing)
 
 ---
 

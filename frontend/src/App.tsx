@@ -30,7 +30,9 @@ import {
   LayoutDashboard,
   Briefcase,
   X,
-  ChevronDown
+  ChevronDown,
+  Moon,
+  Sun
 } from 'lucide-react';
 import * as Sentry from '@sentry/react';
 
@@ -38,6 +40,9 @@ export default function App() {
   // Wallet state
   const [walletAddress, setWalletAddress] = useState<string | null>(null);
   const [connecting, setConnecting] = useState(false);
+
+  // Theme state
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   // Contract data state
   const [projects, setProjects] = useState<Project[]>([]);
@@ -219,7 +224,10 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen text-gray-100 flex flex-col md:flex-row bg-darkBg overflow-hidden font-sans relative">
+    <div 
+      className="min-h-screen text-gray-100 flex flex-col md:flex-row bg-darkBg overflow-hidden font-sans relative transition-all duration-500"
+      style={!isDarkMode ? { filter: 'invert(1) hue-rotate(180deg)' } : {}}
+    >
       {/* Background gradients */}
       <div className="fixed top-[-20%] left-[-10%] w-[50%] h-[50%] bg-indigo-600/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="fixed bottom-[-20%] right-[-10%] w-[50%] h-[50%] bg-violet-600/10 rounded-full blur-[120px] pointer-events-none" />
@@ -230,10 +238,17 @@ export default function App() {
           <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-500 to-violet-600 flex items-center justify-center font-bold text-lg text-white shadow-[0_0_15px_rgba(99,102,241,0.5)]">
             ML
           </div>
-          <div>
+          <div className="flex-1">
             <h1 className="text-xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">Milestora</h1>
             <p className="text-[9px] text-gray-500 font-medium tracking-widest uppercase">Escrow Platform</p>
           </div>
+          <button 
+            onClick={() => setIsDarkMode(!isDarkMode)} 
+            className="p-2 rounded-xl bg-gray-800/50 text-gray-400 hover:text-white transition"
+            title="Toggle Theme"
+          >
+            {isDarkMode ? <Sun size={16} /> : <Moon size={16} />}
+          </button>
         </div>
 
         <div className="flex-1 px-4 py-6 space-y-2">

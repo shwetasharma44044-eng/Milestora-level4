@@ -14,7 +14,7 @@ import { trackEvent } from './analyticsService';
 import * as Sentry from '@sentry/react';
 
 // Configuration
-export const CONTRACT_ID = import.meta.env.VITE_CONTRACT_ID || 'CDWWX7MKME6763VSAE35BJNF3OR7357BYUYHCRXGX2CRRJZKO2WXPBQM';
+export const CONTRACT_ID = import.meta.env.VITE_CONTRACT_ID || 'CABRYRJWNR5WVI34LSA667LTXG7NHIRJOAZASX5MTFJK5JHCAD7ILETJ';
 export const RPC_URL = import.meta.env.VITE_RPC_URL || 'https://soroban-testnet.stellar.org';
 export const NETWORK_PASSPHRASE = import.meta.env.VITE_NETWORK_PASSPHRASE || 'Test SDF Network ; September 2015';
 export const TOKEN_ADDRESS = import.meta.env.VITE_TOKEN_ADDRESS || 'CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC'; // Native XLM SAC on Testnet
