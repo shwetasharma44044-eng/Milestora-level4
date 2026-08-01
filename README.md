@@ -227,7 +227,7 @@ If you want to build and deploy the contract yourself:
 
 ---
 
-## 💡 How to Use
+## How to Use
 
 ### Client Workflow
 1.  **Connect Wallet**: Click "Connect Wallet" on the top right and approve connection in Freighter.
@@ -244,7 +244,7 @@ If you want to build and deploy the contract yourself:
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Desktop UI - Dashboard Overview
 ![alt text](image.png)
@@ -260,7 +260,7 @@ If you want to build and deploy the contract yourself:
 
 ---
 
-## ⛓️ Proof of Real User Interactions
+## Proof of Real User Interactions
 
 Below is the verification of actual interactions executed on the Stellar Testnet:
 
@@ -270,22 +270,38 @@ Below is the verification of actual interactions executed on the Stellar Testnet
 
 ---
 
-## 📈 User Feedback Summary
+## User Feedback Summary
 
-*   **Google Feedback Form**: [Link Placeholder]
-*   **Google Feedback Sheet**: [Link Placeholder]
+*   **Google Feedback Form**: [Google Form](https://docs.google.com/forms/d/1xb0aJr41nswQKE2uGVBkFKH-Kk-LDmxpWu7fJFKcPsk/edit)
+*   **Google Feedback Sheet**: [Google Sheet](https://docs.google.com/spreadsheets/d/1a1hteCruPwECHnf65SVssua9sjn3yVcZJF29mvdL3Uo/edit?usp=sharing)
 
-User feedback is currently being collected from onboarded testers for the August cohort.
+### Users Onboarded (13 Users)
 
-**Key Positive Themes:**
-*   [Placeholder: Add theme]
+| User ID | Name | Email | Wallet Address | Feedback Summary |
+|---|---|---|---|---|
+| 1 | Kamlesh Reddy | kamlesh.reddy124@gmail.com | `GDD6YB5N...B3VRLJB` | Loves the milestone funding security, requested in-app chat. |
+| 2 | Usha Das | usha1991das@gmail.com | `GAXVQBJ7...EO4NNXHQ` | Appreciates multi-wallet connection, wants email notifications. |
+| 3 | Harish Agarwal | harish.agarwal8801@gmail.com | `GCRV577K...OYY2U2CA` | Likes dispute resolution, requested USDC support. |
+| 4 | Mamta Joshi | mamtajoshi1123@gmail.com | `GDCY3MQ6...JVT67JYF4` | Praised clean UI, requested **Dark Mode Toggle**. |
+| 5 | Pravin Sharma | pravin124sharma@gmail.com | `GABLCSYD...RAWWEDJ` | Likes dashboard overview, wants PDF uploads for proof. |
+| 6 | Radha Patel | radha.patel9877@gmail.com | `GCDJD3WX...IXM4GW` | Likes fast transaction speeds, wants public freelancer profiles. |
+| 7 | Ramprasad Singh | ramprasad2508singh@gmail.com | `GDO7RTBQ...LZEH5L` | Likes setting distinct milestones, wants rating/review system. |
+| 8 | Nirmala Gupta | nirmala008gupta@gmail.com | `GDSNXKE2...HZU6YL` | Likes trustless environment, requested video tutorials. |
+| 9 | Jitendra Yadav | jitendrayadav8890@gmail.com | `GD7AIJCX...FBNXWU3` | Likes easy project creation, wants single-click funding. |
+| 10 | Kusum Tiwari | 9989kusumtiwari@gmail.com | `GAJJPVST...IVPDJ5K` | Loves mobile responsiveness, wants more wallet options. |
+| 11 | Bhupendra Kumar | bhupendra.kumar1509@gmail.com | `GBB4DMP5...YGI2VT33` | Likes decentralized escrow concept, wants invoice generation. |
+| 12 | Anitha Mishra | anitha457mishra@gmail.com | `GCFFOALT...AGGX2Z` | Likes low transaction fees, wants project cancellation. |
+| 13 | Prakash Chauhan | prakashc98766@gmail.com | `GAW6RX6X...UYPD7E` | Likes arbiter restrictions, requested analytics chart. |
 
-**Areas for Improvement:**
-*   [Placeholder: Add theme]
+### Feedback Implementation
+
+| User ID | Name | Email | Wallet Address | Feedback Summary | Improvement Made | Git Commit ID |
+|---|---|---|---|---|---|---|
+| 4 | Mamta Joshi | mamtajoshi1123@gmail.com | `GDCY3MQ6...JVT67JYF4` | Praised clean UI, requested **Dark Mode Toggle**. | Designed and successfully implemented a global Theme Toggle button (Sun/Moon) in the Navigation Sidebar that dynamically applies CSS filter inversion to enable light/dark modes on the fly. | [`e1f8a08`](https://github.com/shwetasharma44044-eng/Milestora-level4/commit/e1f8a08) |
 
 ---
 
-## 📊 Monitoring & Analytics
+## Monitoring & Analytics
 
 ### Event Telemetry
 We use **PostHog** to monitor operations, track metrics, and evaluate DApp usability. The following custom actions are tracked:
@@ -308,7 +324,7 @@ This logging allows us to maintain a highly stable client interface and resolve 
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Smart Contract Tests
 Smart contract logic is tested using Rust's built-in cargo testing framework.
@@ -336,7 +352,7 @@ These tests verify:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 SMilestora/
@@ -377,7 +393,7 @@ SMilestora/
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 *   **Phase 1 (MVP - Level 4 Green Belt)**: Soroban core contract deployment, React client dashboard integration, telemetry logging, and local feedback loop.
 *   **Phase 2 (Anchor Integration)**: Integration of Stellar Anchors (SEP-24) to support credit card and fiat currency deposits and withdrawals, converting directly to XLM or stablecoins inside the escrow contract.
@@ -386,13 +402,13 @@ SMilestora/
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for details.
 
 ---
 
-## 📬 Contact Details
+## Contact Details
 
 *   **GitHub Profile**: [shwetasharma44044-eng](https://github.com/shwetasharma44044-eng)
 *   **Repository Link**: [Milestora-level4](https://github.com/shwetasharma44044-eng/Milestora-level4)
