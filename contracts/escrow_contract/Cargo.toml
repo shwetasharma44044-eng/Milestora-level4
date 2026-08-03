@@ -24,3 +24,5 @@ codegen-units = 1
 [profile.release-with-logs]
 inherits = "release"
 debug-assertions = true
+
+
